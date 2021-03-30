@@ -1,5 +1,4 @@
 #Telegram :  https://t.me/Muntadhar_Pro
-#Whatsapp :  +9647831855486
 #Youtube  :  https://www.youtube.com/channel/UCy_MihfVsFZwdwVWtG1qCPA
 import os
 from os import system
@@ -87,6 +86,7 @@ if MTR == '1':
       system("apt install wget -y ")
       system("apt install curl -y ")
       system("apt install ruby -y ")
+      system("gem install bundler ") 
       system("apt install proot -y ")
       system("apt install unstable-repo -y ")
       system("pkg install metasploit -y ")
@@ -102,6 +102,7 @@ if MTR == '1':
         system("apt install wget -y ")
         system("apt install curl -y ")
         system("apt install ruby -y ")
+        system("gem install bundler ") 
         system("apt install proot -y ")
         system("apt install unstable-repo -y ")
         system("pkg install metasploit -y ")
